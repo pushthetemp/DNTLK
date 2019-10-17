@@ -1,0 +1,122 @@
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*End of reset code*/
+
+
+/*My Code*/
+
+html, body {
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    background-color: #7BDFF2;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.fullContainer {
+    width: 0, auto;
+}
+
+#messageBar {
+    height: 42px;
+    width: 100%;
+    background-color: #FFEEDB;
+}
+
+#bannerText {
+    color: #FF6B35;
+    text-align: center;
+    font-size: 16px;
+    padding: 13px 0 0 0;
+}
+
+
+#logo {
+    margin: 0 50px 0 270px;
+    font-size: 135px;
+    float: left;
+    position: relative;
+    top: 320px;
+    
+    
+}
+
+#dont   {
+    padding: 0 0 0 16px;
+    color: #FFEEDB;
+    letter-spacing: -20px;
+    font-style: italic;
+    font-weight: 500;
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+}
+
+#look {
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    font-style: normal; 
+    font-variant: normal;
+    line-height: 60.4px;
+    color: #D81E5B;
+    font-weight: 900;
+    letter-spacing: -18px;
+    font-style: italic;
+}
+
+#mediaRules {
+    font-size: 20px;
+    position: relative;
+    top: 337px;
+    line-height: 30px;
+}
+
+#comingSoon {
+    font-weight: bold;
+
+}
+
+ul {
+    color: #FFEEDB;
+}
